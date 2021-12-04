@@ -115,7 +115,7 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
   
 });
 
-/*============TESTIMONIAL=============== */
+/*============TESTIMONIAL=============== 
 var swiperTestimonial = new Swiper(".testimonial__container", {
   loop: true,
   grabCursor:true,
@@ -131,7 +131,7 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
       }
     }
 });
-
+*/
 /*============SCROLL SECTIONS ACTIVE LINK=============== */
 const sections = document.querySelectorAll('section[id]')
 
