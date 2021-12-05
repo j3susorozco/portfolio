@@ -1201,7 +1201,7 @@ bottom: -2.5rem;
 }
 
 /* For Large devices */
- @media screen and (max-width: 1024px) {
+ @media screen and (min-width: 1024px) {
   .header,
   .main,
   .footer__container {
@@ -1214,16 +1214,6 @@ bottom: -2.5rem;
 
   .home__social {
     transform: translateX(-6rem);
-  }
-  .about__description {
-    text-align: center;
-  }
-  .about__info {
-    justify-content: space-evenly;
-  }
-
-  .about__buttons {
-    justify-content: center;
   }
 
   .services__container {
