@@ -1243,7 +1243,7 @@ bottom: -2.5rem;
   .contact__form {
     width: 460px;
   }
-
+  
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
