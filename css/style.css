@@ -1208,6 +1208,12 @@ bottom: -2.5rem;
     padding: 0;
   }
 
+  .about__description,
+  .about__info-name{
+    font-size: var(--normal-font-size);
+  }
+
+ 
   .home__blob {
     width: 320px;
   }
@@ -1216,6 +1222,11 @@ bottom: -2.5rem;
     transform: translateX(-6rem);
   }
 
+  .qualification__calendar {
+    font-size: var(--smaller-font-size);
+  }
+
+  
   .services__container {
     grid-template-columns: repeat(3, 238px);
   }
